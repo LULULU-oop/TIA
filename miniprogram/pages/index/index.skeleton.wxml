@@ -1,0 +1,54 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/1/5 上午10:24:51 
+使用方法：
+在 /Users/jerrywu/WeChatProjects/miniprogram-3/miniprogram/pages/index/index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 /Users/jerrywu/WeChatProjects/miniprogram-3/miniprogram/pages/index/index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="container">
+      <view class="userinfo" style="border: none;">
+        <button class="userinfo-avatar sk-image sk-pseudo sk-pseudo-circle" open-type="getUserInfo" size="default" style="background-image: url(./user-unlogin.png)"></button>
+        <view class="userinfo-nickname-wrapper">
+          <button class="userinfo-nickname sk-transparent sk-button sk-pseudo sk-pseudo-circle">点击获取 openid</button>
+        </view>
+      </view>
+      <view class="uploader" style="border: none;">
+        <view class="uploader-text">
+          <text class="sk-transparent sk-text-36-5385-837 sk-text">上传图片</text>
+        </view>
+      </view>
+      <view class="uploader" style="border: none;">
+        <navigator class="uploader-text" open-type="navigate">
+          <text class="sk-transparent sk-text-36-5385-410 sk-text">前端操作数据库</text>
+        </navigator>
+      </view>
+      <view class="uploader" style="border: none;">
+        <navigator class="uploader-text" open-type="navigate">
+          <text class="sk-transparent sk-text-36-5385-354 sk-text">即时通信 Demo</text>
+        </navigator>
+      </view>
+      <view class="uploader" style="border: none;">
+        <navigator class="uploader-text" open-type="navigate">
+          <text class="sk-transparent sk-text-36-5385-723 sk-text">快速新建云函数</text>
+        </navigator>
+      </view>
+      <view class="uploader" style="border: none;">
+        <navigator class="uploader-text" open-type="navigate">
+          <text class="sk-transparent sk-text-36-5385-227 sk-text">云调用</text>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

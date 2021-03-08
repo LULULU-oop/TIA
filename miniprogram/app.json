@@ -1,0 +1,63 @@
+{
+  "pages": [ 
+    
+    "pages/box/box",
+    "pages/demo03/demo03",
+    "pages/photoindex/photoindex",
+    "pages/photo/photo",
+    "pages/demo02/demo02",
+    "pages/demo/demo",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid"
+  ],
+  
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [ 
+    {
+      "pagePath": "pages/box/box",
+      "text": "xxx",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },
+    {
+      "pagePath": "pages/photoindex/photoindex",
+      "text": "图片",
+      "iconPath": "icon/_img.png",
+      "selectedIconPath": "icon/img.png"
+    },
+    {
+      "pagePath": "pages/demo02/demo02",
+      "text": "我的",
+      "iconPath": "icon/_my.png",
+      "selectedIconPath": "icon/my.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "icon/_search.png",
+      "selectedIconPath": "icon/search.png"
+    }
+    
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

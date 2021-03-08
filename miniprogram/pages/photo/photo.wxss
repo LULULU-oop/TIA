@@ -1,0 +1,5 @@
+/* pages/photo/photo.wxss */
+
+button{
+  margin-top: 100rpx;
+}

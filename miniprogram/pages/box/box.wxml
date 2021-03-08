@@ -1,0 +1,14 @@
+<!--pages/demo06/demo06.wxml-->
+
+
+<view class="section">
+  <view class="section__title">学科</view>
+  <picker indicator-style="height: 10px;" style="width: 100%; height: 0px;"  bindchange="bindPickerChange"  value="{{index}}" range="{{array}}" >
+    <view  class="picker">
+      当前选择：{{array[index]}}
+    </view>
+  </picker>
+</view>
+
+<button size="mini" type="primary" bindsubmit="btnSub">upload</button>
+

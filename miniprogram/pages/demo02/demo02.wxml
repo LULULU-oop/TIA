@@ -1,0 +1,42 @@
+<!--pages/demo02/demo02.wxml-->
+<!-- 
+<text>1</text>
+<text>2</text>
+<view>1</view>
+<view>2</view>-->
+<!--1 字符串-->
+<view>{{msg}}</view>
+<!--2 数字-->
+<view>{{num}}</view>
+<!--3 bool-->
+<view>是不是伪娘：{{isgirl}}</view>
+<!--4 object-->
+<view>{{person.age}}</view>
+<view>{{person.height}}</view>
+<view>{{person.weight}}</view>
+<view>{{person.name}}</view>
+
+<!--5 在标签属性中使用-->
+<view data-num="{{num}}">自定义属性值</view>
+<!--6 使用布尔类型充当属性值 checked
+  字符串和花括号之间不要存在空格 会识别失败-->
+<view>
+  <checkbox checked="{{true}}"></checkbox>
+</view>
+<!-- 运算-->
+<view>{{ 10%2 == 0 ? 'even' : 'odd'}}</view>
+<!--条件判断-->
+<view wx:if="{{condition}}"> hello</view>
+<!--列表循环
+  1:wx:for="{{数组或者对象}}" wx:for-item="循环项的名称" wx:for-index="循环项的索引"
+  2 wx:key ="only value"  it can be used to improve performance 
+    1 wx:key bond the only 
+-->6
+<view>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index"
+        wx:key="id">
+    索引：{{index}}
+    --
+    值:{{item.name}}
+  </view>
+</view>
